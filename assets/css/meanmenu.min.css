@@ -124,9 +124,10 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-bar::before {
     color: #fff;
-    content: "Indastre";
+    content: "Trimax";
     font-size: 28px;
     font-weight: 600;
+	font-style: italic;
     left: 10px;
     position: absolute;
     top: 18px;
