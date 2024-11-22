@@ -117,13 +117,13 @@ a.meanmenu-reveal{display:none}
   color: #fff;
 }
 .meanmenu-reveal.meanclose:hover {
-  color: #fff !important;
+  color: #0a1027 !important;
 }
 .mean-container a.meanmenu-reveal:hover span {
   background: #fff;
 }
 .mean-container .mean-bar::before {
-    color: #fff;
+    color: #0a1027;
     content: "TRIMAX";
     font-size: 28px;
     font-weight: 600;
