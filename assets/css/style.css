@@ -1616,16 +1616,8 @@ a.industry-button, a.product-button {
     font-size: 14px;
     color: #575f66;
     font-weight: 300;
-    font-family: "Archivo";
 }
 
-
-
-
-/***
-======================================================
-<-- Indastre Feature Area Css -->
-======================================================***/
 .feature-area {
     padding: 101px 0 91px;
     background: #171717;
@@ -1759,13 +1751,6 @@ h3.feature-namber {
     color:  #FF5F15;
     border-bottom: 1px solid #FF5F15;
 }
-
-
-
-
-/*========================================
-<-- Indastre Pricing Section Css -->
-==========================================*/
 
 .pricing-area {
     padding: 103px 0 89px;
@@ -2043,10 +2028,6 @@ h3.feature-namber {
 
 .service-detials-area {
     padding: 120px 0 84px;
-}
-
-.Indastre-service-thumb img {
-    width: 100%;
 }
 
 .service-page-title h1 {
@@ -2869,11 +2850,6 @@ h3.pagination-title {
     margin: 10px 0;
 }
 
-
-/*
-<!-- ============================================================== -->
-<!-- Indastre Blog Details Css -->
-<!-- ============================================================== -->*/
 .blog-details {
     background: #fff;
     padding: 120px 0 118px;
