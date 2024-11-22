@@ -703,7 +703,7 @@ p.about-desc {
     font-size: 14px;
 }
 
-.about-thumb-right {
+.about-thumb-right, .about_thumb {
     left: 0;
 }
 
