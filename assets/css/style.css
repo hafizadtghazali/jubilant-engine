@@ -2037,19 +2037,10 @@ h3.feature-namber {
 .portfolio_nav ul li:hover,
 .portfolio_nav ul li.current_menu_item {
     color: #fff;
-    background: #FF5E14;
+    background: #0c9ed9;
     
 }
 
-
-
-
-
-
-/**
-======================================================
-<--  Indastre Service Details Area Css -->
-======================================================**/
 .service-detials-area {
     padding: 120px 0 84px;
 }
