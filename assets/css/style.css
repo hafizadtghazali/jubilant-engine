@@ -1543,6 +1543,7 @@ a.industry-button, a.product-button {
 
 .about_thumb{
     position: relative;
+	left: -62px;
 }
 
 .about-shape2 {
