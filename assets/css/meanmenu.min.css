@@ -125,6 +125,7 @@ a.meanmenu-reveal{display:none}
 .mean-container .mean-bar::before {
     color: #0a1027;
     content: "TRIMAX";
+	font-family: "Times New Roman", serif;
     font-size: 28px;
     font-weight: 600;
 	font-style: italic;
