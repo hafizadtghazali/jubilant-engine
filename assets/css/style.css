@@ -2087,7 +2087,7 @@ p.pb_30 {
     top: 0;
     height: 100%;
     width: 0%;
-    background: #FF5D13;
+    background: #0c9ed9;
     z-index: -1;
     transition: .5s;
 }
@@ -2461,11 +2461,6 @@ a.active i {
     color: #FF5E15;
 }
 
-
-
-/*======================================
-<-- Indastre Case Study Details Css -->
-========================================*/
 .case-study-details {
     padding: 120px 0 120px;
 }
@@ -2724,7 +2719,6 @@ h3.pagination-title {
     font-size: 17px;
     color: #0c9ed9;
     font-weight: 400;
-    font-family: "Archivo";
 }
 
 
