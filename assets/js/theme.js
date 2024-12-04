@@ -134,7 +134,8 @@
     $('.brand-list').owlCarousel({
         loop: true,
         autoplay: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 6000,
+        slideTransition: 'linear',
         dots: false,
         nav: false,
         navText: ["<i class='fa fa-long-arrow-left''></i>", "<i class='fa fa-long-arrow-right''></i>"],
