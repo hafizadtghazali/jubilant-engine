@@ -1279,8 +1279,11 @@ a.industry-button, a.product-button {
 }
 
 .owl-carousel .owl-item img {
-    display: inline-block;
-    text-align: center !important;
+	width: 130px;
+	height: 75px;
+	object-fit: contain;
+	display: inline-block;
+	text-align: center !important;
 }
 
 .mission-area {
