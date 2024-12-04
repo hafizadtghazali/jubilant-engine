@@ -2816,7 +2816,6 @@ h3.pagination-title {
 }
 
 .content-info-area {
-    background: #0a1027;
     padding: 21px 0;
 }
 
@@ -2847,7 +2846,7 @@ h3.pagination-title {
 }
 
 .cda-content-inner p {
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(0, 0, 0, 0.74);
     margin: 10px 0;
 }
 
