@@ -136,7 +136,7 @@
         autoplay: true,
         slideTransition: 'linear',
         autoplayTimeout: 6000,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 0,
         dots: false,
         nav: false,
         navText: ["<i class='fa fa-long-arrow-left''></i>", "<i class='fa fa-long-arrow-right''></i>"],
