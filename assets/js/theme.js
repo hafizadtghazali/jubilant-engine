@@ -134,7 +134,7 @@
     $('.brand-list').owlCarousel({
         loop: true,
         autoplay: true,
-        slideTransition: linear,
+        slideTransition: 'linear',
         autoplayTimeout: 3000,
         dots: false,
         nav: false,
