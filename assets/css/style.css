@@ -656,11 +656,7 @@ p.section-text {
 
 
 
-
-/*---=================================
-   <!--Service Area Css-->
-==================================---*/
-.service-area {
+.product-area {
     background: url(../images/resource/service-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -669,40 +665,34 @@ p.section-text {
     margin-top: -98px;
 }
 
-.service-area.upper {
+.product-area.upper {
     margin-top: 0;
 }
 
-.single-service-box {
+.single-product-box {
     position: relative;
     overflow:hidden;
 }
 
-.single-service-thumb img {
+.single-product-thumb img {
     width: 100%;
     transition: 1s;
 }
 
-.single-service-box:hover .single-service-thumb img{
+.single-product-box:hover .single-product-thumb img{
   -webkit-transform: scale(1);
   transform: scale(1.2);
 }
 
-.service-icon {
-    position: absolute;
-    right: 42px;
-    bottom: 44%;
-    z-index: 2;
-}
 
-.service-content {
+.product-content {
     background: #fff;
     padding: 45px 43px 43px;
     position: relative;
     z-index: 1;
 }
 
-.service-content:before {
+.product-content:before {
     position: absolute;
     content: "";
     width: 84%;
@@ -713,7 +703,7 @@ p.section-text {
     z-index: -1;
 }
 
-.service-content a {
+.product-content a {
     display: inline-block;
     font-size: 22px;
     color: #0a1027;
@@ -721,15 +711,15 @@ p.section-text {
     transition: 0.5s;
 }
 
-.single-service-box:hover .service-content a{
+.single-product-box:hover .product-content a{
     color:#0c9ed9;
 }
 
-.service-content p {
+.product-content p {
     margin: 16px 0 25px;
 }
 
-a.service-button {
+a.product-button {
     display: inline-block;
     font-size: 16px;
     background: #0c9ed9;
@@ -742,7 +732,7 @@ a.service-button {
     border: 1px solid #0c9ed9;
 }
 
-.single-service-box:hover a.service-button{
+.single-product-box:hover a.product-button{
     background:#fff;
     color: #0c9ed9 !important;
 }
@@ -787,7 +777,7 @@ a.service-button {
     padding: 27px 7px 0 30px;
 }
 
-.industry-content a, .product-content a {
+.industry-content a, .products-content a {
     display: inline-block;
     font-size: 22px;
     color: #ffffff;
@@ -795,16 +785,16 @@ a.service-button {
     transition: 0.5s;
 }
 
-.product-content a {
+.products-content a {
     padding-top: 10px;
     color: #000;
 }
 
-.single-industry-box:hover .industry-content a, .single-product-box:hover .product-content a{
+.single-product-box:hover .products-content a, .single-product-box:hover .products-content a{
     color:#0c9ed9;
 }
 
-.industry-content p, .product-content p {
+.products-content p {
     font-size: 16px;
     color: #8f9199;
     font-weight: 400;
@@ -876,16 +866,14 @@ a.industry-button, a.product-button {
     -webkit-transition: all 0.5s ease-in-out;
     border: 1px solid #eef9ff;
 }
-.single-product-box .product-content {
+.single-product-box .products-content {
     padding: 0px 15px 32px 15px;
     margin: 5px;
 }
 .product-area .grid-item {
     padding-bottom: 30px;
 }
-/*---=================================
-   <!--Working Area Css-->
-==================================---*/
+
 .working-process-area {
     background: url(../images/resource/process-bg.jpg);
     background-repeat: no-repeat;
@@ -904,12 +892,6 @@ a.industry-button, a.product-button {
     font-weight: 500;
     margin: 25px 0 14px;
 }
-
-
-
-/*---=================================
-   <!--Team Area Css-->
-==================================---*/
 
 .team-area {
     background: url(../images/resource/service-bg.jpg);
@@ -995,9 +977,6 @@ a.industry-button, a.product-button {
     top: 1px;
 }
 
-/*---=================================
-   <!--Counter Area Css-->
-==================================---*/
 .counter-area {
     padding: 54px 0 63px;
 }
@@ -1471,15 +1450,10 @@ a.industry-button, a.product-button {
     opacity: 1;
 }
 
-
-
-/*---=================================
-   <!--Breadcamb Area Css-->
-==================================---*/
 .breadcumb-area {
     background: url(../images/resource/breadcrumb.jpg);
     position: relative;
-    padding: 126px 0 144px;
+    padding: 56px 0 64px;
 }
 
 .breadcumb-content h1 {
@@ -2030,15 +2004,15 @@ h3.feature-namber {
     
 }
 
-.service-detials-area {
+.product-detials-area {
     padding: 120px 0 84px;
 }
 
-.service-page-title h1 {
+.product-page-title h1 {
     font-size: 34px;
     color: #171717;
     font-weight: 700;
-    padding: 22px 0 12px;
+    padding: 12px 0 22px;
     display: inline-block;
 }
 
@@ -2047,16 +2021,15 @@ p.pb_30 {
     margin-top: 24px;
 }
 
-/*detials box*/
-.service-details-box {
+.product-details-box {
     background: #fff;
     padding: 33px 30px 15px;
     margin-bottom: 30px;
-    border-left: 3px solid #FF5D13;
+    border-left: 3px solid #0c9ed9;
     filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
 }
 
-.service-details-box:before {
+.product-details-box:before {
     position: absolute;
     content: "";
     left: 0;
@@ -2068,11 +2041,11 @@ p.pb_30 {
     transition: .5s;
 }
 
-.service-details-box:hover:before {
+.product-details-box:hover:before {
     width: 100%;
 }
 
-.service-details-icon {
+.product-details-icon {
     float: left;
     margin-right: 25px;
     margin-top: 10px;
@@ -2083,82 +2056,66 @@ p.pb_30 {
     text-align: center;
     transition: .5s;
 }
-.service-details-icon img {
+.product-details-icon img {
     transition: .5s;
 }
 
-.service-details-title h4 {
+.product-details-title h4 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 12px;
     transition: .5s;
 }
 
-.services-detials-desc p {
+.product-details-desc p, .product-details-desc ul {
     transition: .5s;
 }
 
-/* all hover */
+.product-details-desc ul {
+    margin-bottom: 2em;
+}
 
-.service-details-box:hover .service-details-icon {
+.product-details-desc ul li {
+    list-style: initial;
+}
+
+.product-details-box:hover .product-details-icon {
     background: #2F2F2F;
 }
 
-.service-details-box:hover  .service-details-icon img {
+.product-details-box:hover  .product-details-icon img {
     filter: brightness(0)invert(1);
 }
 
-.service-details-box:hover  .service-details-title h4 {
+.product-details-box:hover  .product-details-title h4 {
    color: #fff;
 }
 
-.service-details-box:hover  .services-detials-desc p {
+.product-details-box:hover  .product-detials-desc p {
     color: #fff;
  }
 
  /* service tab title */
 
- .service-details-content {
+ .product-details-content {
     margin-bottom: 30px;
 }
 
- .service-tab-title h2 {
+ .product-tab-title h2 {
     font-size: 34px;
     color: #171717;
     font-weight: 700;
     margin: 69px 0 32px;
 }
 
-.service-page-title2 h1 {
+.product-page-title2 h1 {
     font-size: 34px;
     color: #171717;
     font-weight: 700;
     margin: 50px 0 18px;
 }
 
-/* service-details-item */
-
-.service-details-item {
-    position: relative;
-    margin-bottom: 30px;
-    padding: 0 0 131px;
-}
-
-.service-details-thumb {
-    position: relative;
-    overflow: hidden;
-}
-
-.service-details-thumb img {
-    transform: scale(1.1);
-    transition: .5s;
-}
-
-.service-details-item:hover .service-details-thumb img {
-    transform: scale(1.2);
-}
-
-.service-details-contents {
+.product-details-contents {
     background: #fff;
     padding: 21px 30px 25px;
     width: 85%;
@@ -2170,7 +2127,7 @@ p.pb_30 {
     filter: drop-shadow(0px 5px 30px rgba(117,117,117,0.1));
 }
 
-.service-details-contents h3 a {
+.product-details-contents h3 a {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 14px;
@@ -2178,11 +2135,11 @@ p.pb_30 {
     color: #171717;
 }
 
-ul.service-details-list li {
+ul.product-details-list li {
     margin-bottom: 3px;
 }
 
-ul.service-details-list li i {
+ul.product-details-list li i {
     font-size: 20px;
     color: #FF5E14;
     position: relative;
@@ -2221,7 +2178,7 @@ ul.service-details-list li i {
     left: 0;
     bottom: -23px;
     height: 2px;
-    background: #FF5E14;
+    background: #0c9ed9;
     width: 15px;
 }
 
@@ -2343,7 +2300,7 @@ ul.service-details-list li i {
     float: right;
     font-size: 20px;
     margin-top: 2px;
-    color: #FF5E15;
+    color: #0c9ed9;
     transition: 0.5s;
 }
 
@@ -3915,7 +3872,3 @@ span.flaticon-multiply i {
         max-width: 1280px;
     }
 }
-
-
-
-
