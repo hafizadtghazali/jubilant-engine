@@ -249,16 +249,6 @@
 
     });
 
-    // Venubox
-
-    $('.venobox').venobox({
-
-        numeratio: true,
-
-        infinigall: true
-
-    });
-
 
    // scroll up
 
