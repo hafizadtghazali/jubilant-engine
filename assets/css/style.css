@@ -749,20 +749,20 @@ a.service-button {
 
 
 .industry-area, .product-area {
-    background-color: #0a1027;
+    background-color: #fff;
     padding: 113px 0 156px;
 }
 
 .industry-area .section-title h1, .product-area .section-title h1 {
-    color: #ffff;
+    color: #0a1027;
 }
 
 .industry-area .section-title p, .product-area .section-title p {
-    color: #ffff;
+    color: #0a1027;
 }
 
 .industry-area .section-button a, .product-area .section-button a {
-    color: #fff;
+    color: #0a1027;
 }
 
 .industry-area .container-fulid, .product-area .container-fulid {
