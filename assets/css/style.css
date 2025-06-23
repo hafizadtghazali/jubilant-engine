@@ -185,7 +185,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #inherit !important;
+    background: rgba(12, 158, 217,0.3) !important;
+	    backdrop-filter: blur(20px) saturate(120%);
     transition: .5s !important;
     z-index: 922;
     -webkit-animation: 300ms running fadeInDown;
