@@ -190,7 +190,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     z-index: 922;
     -webkit-animation: 300ms running fadeInDown;
     animation: 500ms running fadeInUp;
-    animation-name: slideInDown;
+    animation-name: slideInDown;padding: 0;
 }
 ul.sub-menu li a span {
     background: #0c9ed9;
