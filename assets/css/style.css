@@ -160,14 +160,14 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .header-button a {
     display: inline-block;
-    background: #0c9ed9;
+    background: white;
     padding: 11px 26px;
-    border: 2px solid #0c9ed9;
+    border: 2px solid white;
     position: relative;
     z-index: 1;
     transition: 0.5s;
     font-size: 19px;
-    color: #ffffff;
+    color: #0c9ed9;
     font-weight: 500;
     border-radius: 5px;
 }
