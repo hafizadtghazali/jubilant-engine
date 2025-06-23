@@ -2065,6 +2065,10 @@ p.pb_30 {
     transition: .5s;
 }
 
+.product-details-desc p {
+	text-align: justify;
+}
+
 .product-details-desc p, .product-details-desc ul {
     transition: .5s;
 }
