@@ -2679,6 +2679,10 @@ h3.pagination-title {
     padding: 27px 40px 45px;
 }
 
+.page-area {
+    padding: 120px 0 120px;
+}
+
 /*form title*/
 .contact-form-title {
     padding: 0 0 72px;
